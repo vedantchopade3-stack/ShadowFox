@@ -1,0 +1,13 @@
+Australia=["Sydney","Melbourne","Brisbane","Perth"]
+UAE=["Dubai","Abu Dhabi","Sharjah","Ajman"]  
+India=["Mumbai","Bangalore","Chennai","Delhi"]
+city1=input("Enter the city name: ")
+city2=input("Enter another city name: ")
+if city1 in Australia and city2 in Australia:
+    print("Both cities are in Australia")
+elif city1 in UAE and city2 in UAE:
+    print("Both cities are in UAE")
+elif city1 in India and city2 in India:
+    print("Both cities are in India")
+else:
+    print("The cities are not in the same country")
